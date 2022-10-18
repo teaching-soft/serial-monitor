@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>resources/main_icon_48x48.png</file>
+        <file>resources/main_icon_96x96.png</file>
+        <file>resources/logo_mio.png</file>
+    </qresource>
+</RCC>
