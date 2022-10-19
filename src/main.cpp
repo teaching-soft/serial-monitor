@@ -16,12 +16,11 @@ int main(int argc, char *argv[])
     QFileInfo config(configFilePath);
     if (config.isFile() != true) {
         QMessageBox::critical(NULL, "Attenzione",
-                              " File di configurazione non trovato. Esco",
+                              "File di configurazione non trovato. Esco",
                               QMessageBox::Ok);
         return EXIT_FAILURE;
     }
     aqmConfiguration = new QSettings(configFilePath, QSettings::IniFormat);
-    // ---------------------------
 
     MainWindow w;
     w.show();

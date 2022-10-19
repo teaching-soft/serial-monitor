@@ -1,0 +1,16 @@
+Legge i dati dalla porta seriale e li mostra a video.
+Si aspetta una stringa così formata
+
+Temperatura|rh|c02|o3|nois|accellerazione\n
+
+Il programma si aspetta un file di configurazione, nella directory dove è l'eseguibile,
+con queste informazioni
+
+[SerialPort]
+baud=19200
+databits=8
+parity=0 ;0=none,2=even,3=odd
+stopbits=1
+portname=/dev/ttyS0
+
+il nome del file di configurazione deve essere air_quality_monitor.conf
