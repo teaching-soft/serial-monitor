@@ -1,7 +1,7 @@
 Legge i dati dalla porta seriale e li mostra a video.
 Si aspetta una stringa così formata
 
-Temperatura|rh|c02|o3|nois|accellerazione\n
+Temp|rh|c02|o3|rumore|accellerazione\n
 
 Il programma si aspetta un file di configurazione, nella directory dove è l'eseguibile,
 con queste informazioni
